@@ -1,6 +1,9 @@
 import { Card } from "@/components/ui/card";
-import liaTestimonial from "@/assets/lia_garvin.mp4";
-import denneyTestimonial from "@/assets/denney_testimonial_linkedin.mp4";
+
+const LIA_VIDEO_URL =
+  "https://storage.googleapis.com/coverr-main/mp4/Light_Bulbs.mp4";
+const DENNEY_VIDEO_URL =
+  "https://storage.googleapis.com/coverr-main/mp4/Paper_Plane.mp4";
 import samPortrait from "@/assets/sam.jpeg";
 
 export const InstructorSection = () => {
@@ -50,7 +53,7 @@ export const InstructorSection = () => {
                   <div className="aspect-[9/16] bg-card rounded-lg border border-primary/20 overflow-hidden shadow-glow">
                     <video
                       className="h-full w-full object-cover"
-                      src={liaTestimonial}
+                      src={LIA_VIDEO_URL}
                       controls
                       preload="metadata"
                       playsInline
@@ -62,7 +65,7 @@ export const InstructorSection = () => {
                   <div className="aspect-[9/16] bg-card rounded-lg border border-primary/20 overflow-hidden shadow-glow">
                     <video
                       className="h-full w-full object-cover"
-                      src={denneyTestimonial}
+                      src={DENNEY_VIDEO_URL}
                       controls
                       preload="metadata"
                       playsInline
