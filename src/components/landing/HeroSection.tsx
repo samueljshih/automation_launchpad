@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, ArrowRight } from "lucide-react";
-import heroVideo from "@/assets/automation_launchpad_video.mp4";
+
+const HERO_VIDEO_URL =
+  "https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4";
 
 export const HeroSection = () => {
   return (
@@ -36,7 +38,7 @@ export const HeroSection = () => {
               <div className="relative w-full max-w-xl mx-auto rounded-2xl overflow-hidden shadow-glow bg-card border border-primary/20 aspect-video min-h-[220px]">
                 <video
                   className="h-full w-full object-cover"
-                  src={heroVideo}
+                  src={HERO_VIDEO_URL}
                   autoPlay
                   loop
                   muted
@@ -110,7 +112,7 @@ export const HeroSection = () => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-glow bg-card border border-primary/20 aspect-video min-h-[220px] sm:min-h-[280px] lg:min-h-[360px] max-w-2xl mx-auto lg:mx-0">
               <video
                 className="h-full w-full object-cover"
-                src={heroVideo}
+                src={HERO_VIDEO_URL}
                 autoPlay
                 loop
                 muted
