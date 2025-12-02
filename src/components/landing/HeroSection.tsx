@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, ArrowRight } from "lucide-react";
 
 const HERO_VIDEO_URL =
-  "https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4";
+  "https://qoyuqjxpj816yxyt.public.blob.vercel-storage.com/automation_launchpad_video.mp4";
 
 export const HeroSection = () => {
   return (
