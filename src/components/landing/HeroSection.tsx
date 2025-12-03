@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, ArrowRight } from "lucide-react";
 
 const HERO_VIDEO_URL =
-  "https://qoyuqjxpj816yxyt.public.blob.vercel-storage.com/automation_launchpad_video.mp4";
+  "https://qoyuqjxpj816yxyt.public.blob.vercel-storage.com/automation_launchpad_final_video.mp4";
 
 export const HeroSection = () => {
   return (
