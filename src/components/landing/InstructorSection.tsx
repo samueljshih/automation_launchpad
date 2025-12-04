@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 
 const LIA_VIDEO_URL =
-  "https://qoyuqjxpj816yxyt.public.blob.vercel-storage.com/lia_garvin.mp4";
+  "https://pub-8df9c4a659eb4415ad44935d3f6fa9c5.r2.dev/lia_garvin.mp4";
 const DENNEY_VIDEO_URL =
-  "https://qoyuqjxpj816yxyt.public.blob.vercel-storage.com/denney_testimonial_linkedin.mp4";
+  "https://pub-8df9c4a659eb4415ad44935d3f6fa9c5.r2.dev/denney_testimonial_linkedin.mp4";
 import samPortrait from "@/assets/sam.jpeg";
 
 export const InstructorSection = () => {
