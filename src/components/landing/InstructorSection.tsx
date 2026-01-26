@@ -8,18 +8,18 @@ import samPortrait from "@/assets/sam.jpeg";
 
 export const InstructorSection = () => {
   return (
-    <section className="py-20 px-6 bg-secondary">
-      <div className="container mx-auto max-w-5xl">
-        <div className="text-center space-y-6 mb-12">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-foreground">
-            Meet Your <span className="text-primary">Automation Guide</span>
+    <section className="py-16 px-6 bg-background">
+      <div className="container mx-auto max-w-4xl">
+        <div className="mb-20">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-foreground text-center">
+            Meet Your <span className="text-foreground">Automation Guide</span>
           </h2>
         </div>
         
-        <Card className="p-8 md:p-12 bg-card border-primary/20 shadow-glow">
+        <Card className="p-8 md:p-12 bg-card border-border shadow-soft">
           <div className="grid gap-8 md:grid-cols-[200px_1fr] items-center">
             <div className="mx-auto md:mx-0">
-              <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/40 shadow-glow">
+              <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-border">
                 <img
                   src={samPortrait}
                   alt="Sam Shih, instructor of Automation Launchpad"
@@ -35,22 +35,22 @@ export const InstructorSection = () => {
                 <p className="text-accent font-medium">Software Engineer & Automation Builder</p>
               </div>
               
-              <div className="prose prose-lg max-w-none">
-                <p className="text-muted-foreground">
+              <div className="space-y-5">
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   I've been writing code and working in tech for over a decade. I've built real-world automations for clients and seen firsthand how the right systems can transform a business.
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   But most people I talk to don't need complex systems. They just need to know how to start. So I built Automation Launchpad as a clear, hands-on introduction to automation.
                 </p>
-                <p className="text-foreground font-medium">
+                <p className="text-lg text-foreground font-medium leading-relaxed">
                   Real-world examples. No overwhelm. Just practical workflows you can build this weekend.
                 </p>
               </div>
               
               <div className="pt-6 border-t border-border">
-                <p className="text-sm text-muted-foreground mb-4">Don't just take my word for it. Watch what clients say:</p>
+                <p className="text-base text-muted-foreground mb-4 leading-relaxed">Don't just take my word for it. Watch what clients say:</p>
                 <div className="grid gap-4 sm:grid-cols-2">
-                  <div className="aspect-[9/16] bg-card rounded-lg border border-primary/20 overflow-hidden shadow-glow">
+                  <div className="aspect-[9/16] bg-card rounded-lg border border-border overflow-hidden shadow-soft">
                     <video
                       className="h-full w-full object-cover"
                       src={LIA_VIDEO_URL}
@@ -62,7 +62,7 @@ export const InstructorSection = () => {
                     </video>
                     <p className="sr-only">Client testimonial from Lia Garvin describing Automation Launchpad.</p>
                   </div>
-                  <div className="aspect-[9/16] bg-card rounded-lg border border-primary/20 overflow-hidden shadow-glow">
+                  <div className="aspect-[9/16] bg-card rounded-lg border border-border overflow-hidden shadow-soft">
                     <video
                       className="h-full w-full object-cover"
                       src={DENNEY_VIDEO_URL}

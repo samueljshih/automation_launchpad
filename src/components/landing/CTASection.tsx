@@ -4,26 +4,64 @@ import { Shield, CheckCircle, ArrowRight } from "lucide-react";
 
 export const CTASection = () => {
   return (
-    <section className="py-20 px-6 bg-secondary">
-      <div className="container mx-auto max-w-4xl">
-        <Card className="p-8 md:p-12 text-center space-y-8 shadow-glow bg-gradient-primary border-none">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
-            Build Your First AI-Powered Workflow This Weekend
-          </h2>
-          
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
-            Join Automation Launchpad today and get instant access to the complete 3Ds Framework, step-by-step tutorials, and 3 ready-to-build AI-powered workflows.
-          </p>
-          
-          <div className="inline-block p-6 rounded-lg bg-white/10 backdrop-blur-sm">
-            <div className="flex items-baseline gap-3 justify-center mb-2">
-              <span className="text-4xl font-bold text-white">$49.99</span>
-              <span className="text-2xl text-white/60 line-through">$100</span>
-            </div>
-            <p className="text-sm text-white/80">Early access price. Normally $100</p>
-            <p className="text-sm text-white/90 font-semibold mt-2">
-              🎁 Includes FREE Coding Blueprint Course (normally $100)
+    <section className="py-16 px-6 bg-background border-t border-border/50">
+      <div className="container mx-auto max-w-3xl">
+        <Card className="p-8 md:p-12 text-center space-y-8 shadow-soft bg-card border-border">
+          <div className="space-y-4 mb-8">
+            <p className="text-sm uppercase tracking-wide text-white/80 font-semibold">
+              THE INVESTMENT
             </p>
+          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
+            FOUNDING STUDENT OFFER: 50% OFF THIS WEEK ONLY
+          </h2>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Package: The Automation Launchpad
+          </p>
+          </div>
+
+          <div className="text-left max-w-2xl mx-auto space-y-4 mb-8">
+            <ul className="space-y-3 text-lg text-muted-foreground leading-relaxed">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-foreground flex-shrink-0 mt-0.5" />
+                <span>Complete 3Ds Framework training with step-by-step build guides</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>3 plug-and-play workflow templates you can deploy this weekend</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>The Smart Lead Tracker system (automatically tracks all your leads)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>The Instant Responder system (replies in under 60 seconds)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>The Daily Ops Digest (your morning business briefing)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>Coding Blueprint Course for total tech independence</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>Lifetime Evolution Access (all future updates included forever)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-white flex-shrink-0 mt-0.5" />
+                <span>Private community access for questions and support</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div className="inline-block p-6 rounded-lg bg-primary/5 border border-primary/20 mb-6">
+            <div className="flex items-baseline gap-3 justify-center mb-2">
+              <span className="text-4xl font-bold text-primary">$49.99</span>
+              <span className="text-2xl text-muted-foreground line-through">$100</span>
+            </div>
+            <p className="text-base text-muted-foreground">Regular: $100</p>
           </div>
           
           <div className="flex flex-col gap-4 sm:flex-row justify-center">
@@ -31,18 +69,18 @@ export const CTASection = () => {
               asChild
               variant="hero"
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 shadow-lg group"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-none group"
             >
               <a href="https://whop.com/checkout/plan_vVQflABxQIJIL" target="_blank" rel="noopener noreferrer">
-                Buy the Course Now
+                YES, I WANT MY BUSINESS TO RUN ITSELF
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
           </div>
           
-          <div className="flex items-center justify-center gap-6 text-white/90 text-sm flex-wrap">
+          <div className="flex items-center justify-center gap-6 text-muted-foreground text-sm flex-wrap">
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-5 w-5" />
+              <CheckCircle className="h-5 w-5 text-foreground" />
               <span>Instant Access</span>
             </div>
           </div>

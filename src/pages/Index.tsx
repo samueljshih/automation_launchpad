@@ -1,10 +1,12 @@
 import { HeroSection } from "@/components/landing/HeroSection";
 import { ProblemSection } from "@/components/landing/ProblemSection";
 import { FrameworkSection } from "@/components/landing/FrameworkSection";
-import { WhatYouBuildSection } from "@/components/landing/WhatYouBuildSection";
+import { ValuePropSection } from "@/components/landing/ValuePropSection";
 import { WhoItsForSection } from "@/components/landing/WhoItsForSection";
+import { ProductBreakdownSection } from "@/components/landing/ProductBreakdownSection";
 import { InstructorSection } from "@/components/landing/InstructorSection";
-import { TransformationSection } from "@/components/landing/TransformationSection";
+import { FutureVisionSection } from "@/components/landing/FutureVisionSection";
+import { ObjectionsSection } from "@/components/landing/ObjectionsSection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { CTASection } from "@/components/landing/CTASection";
 import { Footer } from "@/components/landing/Footer";
@@ -15,10 +17,12 @@ const Index = () => {
       <HeroSection />
       <ProblemSection />
       <FrameworkSection />
-      <WhatYouBuildSection />
+      <ValuePropSection />
       <WhoItsForSection />
+      <ProductBreakdownSection />
       <InstructorSection />
-      <TransformationSection />
+      <FutureVisionSection />
+      <ObjectionsSection />
       <FAQSection />
       <CTASection />
       <Footer />

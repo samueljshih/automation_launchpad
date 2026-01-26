@@ -1,33 +1,29 @@
-import { Card } from "@/components/ui/card";
-import { Briefcase, Sparkles, Users, TrendingUp, Target, Zap } from "lucide-react";
+import { Briefcase, Users, Target } from "lucide-react";
 
 export const WhoItsForSection = () => {
   return (
-    <section className="py-20 px-6 bg-background">
-      <div className="container mx-auto max-w-5xl">
-        <div className="text-center space-y-6 mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-foreground">
-            Who Is This For?
+    <section className="py-16 px-6 bg-background">
+      <div className="container mx-auto max-w-6xl">
+        <div className="mb-16">
+          <p className="text-sm uppercase tracking-wider text-muted-foreground mb-3 text-center">Who This Is For</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-foreground text-center">
+            WHO THIS IS FOR
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Perfect for business owners who want to implement time-saving automations in their own operations.
-          </p>
         </div>
         
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
           {[
-            { icon: Briefcase, title: "Solo Business Owners", benefit: "Stop doing everything manually and scale your one-person business" },
-            { icon: Users, title: "Coaches & Consultants", benefit: "Automate client intake, scheduling, and follow-ups" },
-            { icon: Target, title: "Service Providers", benefit: "Streamline operations from lead to delivery" },
-            { icon: Zap, title: "Complete Beginners", benefit: "Build real automations with zero coding or tech experience" }
+            { icon: Briefcase, title: "Solo Entrepreneurs Drowning in Admin Work", benefit: "You're running the business, doing the marketing, and handling customer service. You need systems that give you back at least 10 hours per week." },
+            { icon: Users, title: "Coaches and Consultants Losing Leads to Slow Follow-Up", benefit: "You know speed matters, but you can't be glued to your phone 24/7. You need automation that responds instantly while maintaining your personal touch." },
+            { icon: Target, title: "Small Team Leaders Ready to Scale Smart", benefit: "You're growing but can't afford to hire yet. You need digital systems that work like employees without the overhead or training headaches." }
           ].map((item, index) => (
-            <Card key={index} className="p-6 space-y-4 text-center hover:shadow-glow transition-shadow bg-card border-primary/20 animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
-              <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-accent mx-auto">
-                <item.icon className="h-6 w-6 text-white" />
-              </div>
-              <h3 className="text-lg font-semibold text-foreground">{item.title}</h3>
-              <p className="text-sm text-muted-foreground">{item.benefit}</p>
-            </Card>
+            <div key={index} className="p-8 space-y-4 bg-card border-l-4 border-primary/30 animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
+              <h3 className="text-xl md:text-2xl font-bold text-foreground flex items-start gap-3">
+                <item.icon className="h-6 w-6 text-primary flex-shrink-0 mt-1" strokeWidth={1.5} />
+                <span>{item.title}</span>
+              </h3>
+              <p className="text-lg text-muted-foreground pl-9 leading-relaxed">{item.benefit}</p>
+            </div>
           ))}
         </div>
       </div>

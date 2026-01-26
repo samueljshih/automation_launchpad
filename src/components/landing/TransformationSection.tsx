@@ -22,7 +22,7 @@ export const TransformationSection = () => {
               Your calendar is updated automatically. Client onboarding happens without you lifting a finger. Data flows seamlessly between your tools.
             </p>
             <p className="text-foreground font-semibold">
-              You're no longer drowning in busywork. You're building, creating, and growing — living the freedom you started your business for.
+              You're no longer drowning in busywork. You're building, creating, and growing, living the freedom you started your business for.
             </p>
           </div>
         </Card>
