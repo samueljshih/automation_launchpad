@@ -7,7 +7,6 @@ const HERO_VIDEO_URL =
 export const HeroSection = () => {
   return (
     <section className="relative overflow-hidden py-12 px-4 md:py-20 bg-background border-b border-border/50">
-
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-14 items-center justify-items-center">
           <div className="order-2 lg:order-1 space-y-8 animate-fade-up text-center lg:text-left w-full max-w-2xl">
@@ -20,13 +19,12 @@ export const HeroSection = () => {
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
               Build Your First AI Workflow{" "}
-              <span className="text-primary">
-                This Weekend
-              </span>
+              <span className="text-primary">This Weekend</span>
             </h1>
 
             <p className="hidden lg:block text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              No coding required. No tech degree needed. Just three simple systems that free up 15 hours every week.
+              No coding required. No tech degree needed. Just three simple
+              systems that can free up time every week.
             </p>
 
             <div className="block lg:hidden">
@@ -87,7 +85,9 @@ export const HeroSection = () => {
             </div>
 
             <div className="space-y-2 text-sm text-muted-foreground mx-auto lg:mx-0 max-w-xl text-left">
-              <p className="text-base font-semibold text-foreground">Includes:</p>
+              <p className="text-base font-semibold text-foreground">
+                Includes:
+              </p>
               <ul className="space-y-1.5 pl-4 list-disc leading-relaxed">
                 <li>Automation Launchpad</li>
                 <li>Coding Blueprint Course bonus ($100 value)</li>
@@ -101,7 +101,8 @@ export const HeroSection = () => {
 
           <div className="order-3 lg:hidden w-full">
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-center leading-relaxed">
-              No coding required. No tech degree needed. Just three simple systems that free up 15 hours every week.
+              No coding required. No tech degree needed. Just three simple
+              systems that can free up time every week.
             </p>
           </div>
 

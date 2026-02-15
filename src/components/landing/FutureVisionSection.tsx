@@ -11,21 +11,18 @@ export const FutureVisionSection = () => {
 
           <div className="space-y-6 text-muted-foreground text-lg md:text-xl leading-relaxed">
             <p>
-              Picture this: You wake up Monday morning. Before you even open
-              your laptop, your phone buzzes with a notification. It's your
-              Daily Ops Digest. Three new qualified leads came in over the
-              weekend. All of them already received a personalized welcome
-              message. All your leads are tracked and organized. Your follow-up sequences are
-              running. You didn't lift a finger.
+              Picture this: You check your inbox and see your Daily Ops Digest.
+              A few new leads came in. Each one already got an automated welcome
+              reply with a link to book a call. Their form responses and AI
+              summaries are in your sheet. You didn't have to send those replies
+              yourself.
             </p>
 
             <p>
-              You grab your coffee and open your inbox. Instead of 47 unread
-              messages screaming for attention, you see organized summaries. The
-              urgent stuff is already handled. The important decisions are
-              clearly laid out. You spend 15 minutes reviewing what your systems
-              did while you slept, then close your laptop to focus on the work
-              that actually grows your business.
+              You open your sheet and see who came in and what they need. The
+              digest suggests one next step. You spend a few minutes reviewing,
+              then focus on the work that actually grows your business instead
+              of chasing data across tabs.
             </p>
 
             <p>
@@ -42,25 +39,23 @@ export const FutureVisionSection = () => {
               </p>
               <p>
                 You'll keep waking up to chaos. The manual work will pile
-                higher. That competitor who seems to respond instantly? They'll
-                keep winning the leads you lose because you were too slow. Your
-                family will keep getting the exhausted, stressed version of you.
-                And six months from now, you'll be in the exact same place,
-                wondering why everyone else seems to have figured out the secret
-                to running a business that doesn't consume their entire life.
+                higher. Competitors who respond faster may win leads you miss
+                when follow-up slips. Your family may keep getting the
+                exhausted, stressed version of you. And six months from now, you
+                may still be in a similar place, wondering why everything still
+                feels so manual.
               </p>
               <p className="mt-4 font-semibold text-lg md:text-xl leading-relaxed">
                 The truth is, they have systems. You don't. Yet.
               </p>
               <p className="mt-4">
-                This weekend could be the turning point. The moment you stop
-                being a manual operator and become a business owner with a
-                digital workforce that never sleeps. The Automation Launchpad
+                This weekend could be a turning point. A moment where you move
+                from handling every repetitive step yourself to using simple
+                systems that run in the background. The Automation Launchpad
                 closes soon, and the Founding Student price disappears with it.
-                The question isn't whether you need this. You already know you
-                do. The question is: will you still be drowning in busywork six
-                months from now, or will you finally have the systems that set
-                you free?
+                The question is whether you'll still be doing these tasks
+                manually six months from now, or whether you'll have a cleaner
+                workflow in place.
               </p>
             </div>
           </div>

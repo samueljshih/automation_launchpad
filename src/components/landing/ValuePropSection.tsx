@@ -18,19 +18,19 @@ export const ValuePropSection = () => {
               icon: Clock,
               title: "Time Back in Your Calendar:",
               description:
-                "You're not spending your Sunday night updating spreadsheets anymore. These systems run 24/7 so you can focus on the work that actually grows your business.",
+                "You're not spending your Sunday night updating spreadsheets anymore. These systems run in the background so you can focus on the work that actually grows your business.",
             },
             {
               icon: Zap,
               title: "Professional Speed Without the Stress:",
               description:
-                "Your leads get responses in under 5 minutes. Every time. You look like you have a full team handling everything, but it's just smart systems doing the heavy lifting.",
+                "New leads get an automated reply so you don't have to remember to respond. The system sends a personalized welcome and booking link so you look responsive even when you're busy.",
             },
             {
               icon: Eye,
               title: "Clear Vision of What's Working:",
               description:
-                "No more guessing or digging through scattered data. You wake up to a daily summary that shows exactly what happened in your business while you were offline.",
+                "The Daily Ops Digest emails you a summary of that day's new leads and one suggested next step. Less digging through your spreadsheet to see what came in.",
             },
             {
               icon: BookOpen,
@@ -42,14 +42,19 @@ export const ValuePropSection = () => {
             <div key={index} className="flex gap-6 items-start">
               <div className="flex-shrink-0 pt-1">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center border border-primary/20">
-                  <item.icon className="h-5 w-5 text-primary" strokeWidth={1.5} />
+                  <item.icon
+                    className="h-5 w-5 text-primary"
+                    strokeWidth={1.5}
+                  />
                 </div>
               </div>
               <div className="flex-1 space-y-3">
                 <h3 className="text-xl md:text-2xl font-bold text-foreground">
                   {item.title}
                 </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">{item.description}</p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             </div>
           ))}
@@ -82,9 +87,9 @@ export const ValuePropSection = () => {
               it. Deliver the result automatically.
             </p>
             <p className="text-lg text-foreground font-semibold leading-relaxed">
-              That's why Automation Dojo exists. To give you the unfair
-              advantage of systems that work while you sleep... without needing
-              a computer science degree to build them.
+              That's why Automation Dojo exists. To help you build practical
+              systems that keep running in the background... without needing a
+              computer science degree.
             </p>
           </div>
         </Card>
