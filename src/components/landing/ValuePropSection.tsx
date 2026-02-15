@@ -70,11 +70,11 @@ export const ValuePropSection = () => {
               watched the same pattern repeat over and over.
             </p>
             <p>
-              Smart people with great ideas... drowning in busywork. Spending 3
-              hours a day on tasks a simple system could handle in 3 seconds.
-              They'd buy expensive software, watch tutorial after tutorial, and
-              still end up doing everything manually because nobody taught them
-              the logic behind automation.
+              Smart people with great ideas... drowning in busywork. Spending
+              too much time on repetitive tasks that a simple system could
+              handle automatically. They'd buy expensive software, watch
+              tutorial after tutorial, and still end up doing everything
+              manually because nobody taught them the logic behind automation.
             </p>
             <p>
               That's when I realized the problem. Everyone teaches tools. Nobody

@@ -25,7 +25,7 @@ export const WhoItsForSection = () => {
               icon: Users,
               title: "Coaches and Consultants Losing Leads to Slow Follow-Up",
               benefit:
-                "You know speed matters, but you can't be glued to your phone all day. You need automation that sends a personalized reply to new leads so you can follow up when you're ready.",
+                "You know speed matters, but you can't be glued to your phone all day. You need automation that sends a personalized reply to new leads so you can follow up at the right time.",
             },
             {
               icon: Target,
